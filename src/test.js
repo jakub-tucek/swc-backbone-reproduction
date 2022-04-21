@@ -1,6 +1,3 @@
-import Backbone from "backbone";
-
-
 class Collection {
 
 }
