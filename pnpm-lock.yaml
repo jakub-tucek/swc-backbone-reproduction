@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@swc/cli': ^0.1.57
-  '@swc/core': ^1.2.170
+  '@swc/cli': 0.1.57
+  '@swc/core': 1.2.170
   backbone: 1.4.0
 
 dependencies:

@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/jakub-tucek/swc-backbone-reproduction#readme",
   "dependencies": {
-    "@swc/cli": "^0.1.57",
-    "@swc/core": "^1.2.170",
+    "@swc/cli": "0.1.57",
+    "@swc/core": "1.2.170",
     "backbone": "1.4.0"
   }
 }
