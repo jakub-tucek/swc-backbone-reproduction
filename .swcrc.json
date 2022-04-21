@@ -1,0 +1,30 @@
+{
+  "test": ".jsx?$",
+  "sourceMaps": true,
+  "inlineSourcesContent": true,
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true,
+      "decorators": false,
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "throwIfNamespace": true,
+        "refresh": true,
+        "useBuiltins": false,
+        "runtime": "automatic"
+      }
+    },
+    "target": "es2015"
+  },
+  "module": {
+    "type": "commonjs",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false,
+    "ignoreDynamic": true
+  }
+}

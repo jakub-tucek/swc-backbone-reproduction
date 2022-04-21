@@ -1,0 +1,24 @@
+{
+  "name": "swc-backbone-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "swc src/test.js --config-file .swcrc.json -d build && node build/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakub-tucek/swc-backbone-reproduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakub-tucek/swc-backbone-reproduction/issues"
+  },
+  "homepage": "https://github.com/jakub-tucek/swc-backbone-reproduction#readme",
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.170",
+    "backbone": "1.4.0"
+  }
+}

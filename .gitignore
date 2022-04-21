@@ -1,0 +1,38 @@
+# IDE
+.idea
+.vscode
+*.iws
+*.iml
+*.ipr
+/out/
+
+# Project files
+**/build/*
+/build-source-maps/*
+**/tmp/*
+/.awcache
+.cache
+
+/coverage/
+
+/.ftppass
+
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+.awcache
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# NPM files
+node_modules
+npm-debug.log
+.pnpm-debug.log
+
+# Test Coverage #
+jest-julius
+
+debug.log
